@@ -1,0 +1,11 @@
+/.project
+/.classpath
+/.settings/*
+/*~
+/*.class
+/*.jar
+/target/*
+/bin/*
+/.idea
+/*.iml
+/src/bukkit/

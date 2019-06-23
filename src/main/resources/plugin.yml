@@ -1,0 +1,6 @@
+name: Rebar
+main: com.sk89q.rebar.Rebar
+version: "$version"
+database: true
+softdepend: [WorldEdit, WorldGuard, Dynmap, CommandBook, ProtocolLib]
+commands:

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  ~ Rebar
+  ~ Copyright (C) 2010-2014 Albert Pham <http://www.sk89q.com>
+  -->
+
+<ns2:chat xmlns:ns2="com.skcraft.galvanized">
+  <emotes> <!-- Order matters! -->
+    <!-- SKCraft -->
+    <emote path="/skcraft/chat/skcraft.png" sw="55" sh="32" w="128" h="64" ix="9" iy="0" iw="110" ih="64" spriteCoords="false" />
+
+    <!-- Eduardo -->
+    <emote path="/skcraft/chat/eduardo.png" sw="64" sh="64" />
+    <emote path="/skcraft/chat/eduardo2.png" sw="64" sh="64" />
+    <emote path="/skcraft/chat/eduardo3.png" sw="64" sh="64" />
+    <emote path="/skcraft/chat/eduardo4.png" sw="64" sh="64" />
+    <emote path="/skcraft/chat/eduardo5.png" sw="64" sh="64" />
+
+    <!-- Icons -->
+    <emote path="/skcraft/chat/cake.png" sw="8" sh="8">
+      <macros>
+        <macro>:cake:</macro>
+        <macro>:bday:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/exclamation-shield-frame.png" sw="8" sh="8" />
+    <emote path="/skcraft/chat/heart.png" sw="8" sh="8">
+      <macros>
+        <macro>&lt;3</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/information-button.png" sw="8" sh="8" />
+    <emote path="/skcraft/chat/light-bulb.png" sw="8" sh="8" />
+    <emote path="/skcraft/chat/status.png" sw="8" sh="8" />
+    <emote path="/skcraft/chat/status-offline.png" sw="8" sh="8" />
+    <emote path="/skcraft/chat/tick-shield.png" sw="8" sh="8" />
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="0" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:)</macro>
+        <macro>:-)</macro>
+        <macro>=)</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="1" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:rolleyes:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="2" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:oops:</macro>
+        <macro>:shy:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="3" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>^-^</macro>
+        <macro>^_^</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="4" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:hide:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="5" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:thumbsup:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="0" iy="6" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:zip:</macro>
+        <macro>:shh:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="0" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:D</macro>
+        <macro>:-D</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="1" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:p</macro>
+        <macro>:-p</macro>
+        <macro>:P</macro>
+        <macro>:-P</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="2" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:eek:</macro>
+        <macro>:o</macro>
+        <macro>:-o</macro>
+        <macro>:O</macro>
+        <macro>:-O</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="3" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:zzz:</macro>
+        <macro>:sleep:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="4" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:poop:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="5" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:thumbsdown:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="1" iy="6" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:ashamed:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="0" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>B)</macro>
+        <macro>B-)</macro>
+        <macro>:cool:</macro>
+        <macro>8)</macro>
+        <macro>8-)</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="1" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:confused:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="2" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:(</macro>
+        <macro>:-(</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="3" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:ninja:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="4" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:cry:</macro>
+        <macro>:crying:</macro>
+        <macro>;_;</macro>
+        <macro>;-;</macro>
+        <macro>;~;</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="5" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:relaxed:</macro>
+        <macro>:relax:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="2" iy="6" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:plotting:</macro>
+        <macro>:evil:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="0" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:angry:</macro>
+        <macro>:mad:</macro>
+        <macro>>:(</macro>
+        <macro>:@</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="1" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>;)</macro>
+        <macro>;-)</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="2" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:rofl:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="3" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:lol:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="4" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:&lt;3:</macro>
+        <macro>:love:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="5" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:alien:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="3" iy="6" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:blush:</macro>
+        <macro>:excited:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="0" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:nerd:</macro>
+        <macro>:geek:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="1" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:grandpa:</macro>
+        <macro>:old:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="2" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>O_o</macro>
+        <macro>o_O</macro>
+        <macro>0_o</macro>
+        <macro>o_0</macro>
+        <macro>0-o</macro>
+        <macro>o-0</macro>
+        <macro>O-o</macro>
+        <macro>o-O</macro>
+        <macro>0.o</macro>
+        <macro>o.0</macro>
+        <macro>O.o</macro>
+        <macro>o.O</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="3" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:shifty:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="4" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:embarrased:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="5" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:devil:</macro>
+      </macros>
+    </emote>
+    <emote path="/skcraft/chat/xenforo-emotes.png" sw="9" sh="9" w="128" h="128" ix="4" iy="6" iw="18" ih="18" yOffset="-1">
+      <macros>
+        <macro>:whistle:</macro>
+        <macro>:whistles:</macro>
+      </macros>
+    </emote>
+
+    <!-- Locations -->
+    <emote path="/skcraft/chat/locations.png" sw="64" sh="50" w="128" h="512" ix="0" iy="0" iw="128" ih="100" />
+    <emote path="/skcraft/chat/locations.png" sw="64" sh="50" w="128" h="512" ix="0" iy="1" iw="128" ih="100" />
+    <emote path="/skcraft/chat/locations.png" sw="64" sh="50" w="128" h="512" ix="0" iy="2" iw="128" ih="100" />
+    <emote path="/skcraft/chat/locations.png" sw="64" sh="50" w="128" h="512" ix="0" iy="3" iw="128" ih="100" />
+    <emote path="/skcraft/chat/locations.png" sw="64" sh="50" w="128" h="512" ix="0" iy="4" iw="128" ih="100" />
+  </emotes>
+</ns2:chat>
